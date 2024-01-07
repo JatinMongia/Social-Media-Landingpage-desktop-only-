@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialStatus </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+    <div class="container">
+        <h2 class="logo">
+            SocialStatus
+        </h2>
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search">
+            </div>
+            <div class="create"> 
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="Assets/pp.jpg"  alt="profile-picture">
+                </div>
+            </div>
+    </div>
+</nav>
+      <!--------------------------------------------- MAIN ---------------------------------------------------->
+ <main>
+    <div class="container">
+
+        <div class="left">
+        <a  class="profile">
+            <div class="profile-picture">
+                <img src="Assets/pp.jpg" alt="pp">
+            </div>
+            <div class="handle">
+                <h4>Jatin</h4>
+                <p class="text-muted">
+                    @jatinM
+                </p>
+            </div>
+        </a>
+        <!-- sidebar -->
+        <div class="sidebar">
+            <a class="menu-item active">
+            <span><i class="fa-solid fa-house"></i></span><h3>Home</h3>
+            </a>
+            <a class="menu-item">
+            <span><i class="fa-solid fa-house"></i></span><h3>Explore</h3>
+            </a>
+            <a class="menu-item">
+            <span><i class="fa-solid fa-house"><small class="notification-count">9+</small></i></span><h3>Notification</h3>
+                              <!-- notifications popup -->
+            <div class="notifications-popup">
+                <div>
+                    <div class="profile-picture">
+                        <img src="Assets/pp.jpg" alt="">
+                    </div>
+                    <div class="notification-body">
+                        <b>Jatin</b> Accepted your friend request.
+                        <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                </div>
+                <div>
+                    <div class="profile-picture">
+                        <img src="Assets/pp.jpg" alt="">
+                    </div>
+                    <div class="notification-body">
+                        <b>Jatin</b> Accepted your friend request.
+                        <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                </div>
+                <div>
+                    <div class="profile-picture">
+                        <img src="Assets/pp.jpg" alt="">
+                    </div>
+                    <div class="notification-body">
+                        <b>Jatin</b> Accepted your friend request.
+                        <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                </div>
+                <div>
+                    <div class="profile-picture">
+                        <img src="Assets/pp.jpg" alt="">
+                    </div>
+                    <div class="notification-body">
+                        <b>Jatin</b> Accepted your friend request.
+                        <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                </div>
+                <div>
+                    <div class="profile-picture">
+                        <img src="Assets/pp.jpg" alt="">
+                    </div>
+                    <div class="notification-body">
+                        <b>Jatin</b> Accepted your friend request.
+                        <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                </div>
+                
+            </div>                  
+                  <!-- end notification popup  -->
+            </a>
+            <a class="menu-item">
+            <span><i class="fa-solid fa-house"><small class="notification-count">6</small></i></span><h3>Messages</h3>
+            </a>
+            <a class="menu-item">
+            <span><i class="fa-solid fa-house"></i></span><h3>Bookmarks</h3>
+            </a>
+            <a class="menu-item">
+            <span><i class="fa-solid fa-house"></i></span><h3>Analytics</h3>
+            </a>
+            <a class="menu-item">
+            <span><i class="fa-solid fa-house"></i></span><h3>Theme</h3>
+            </a>
+            <a class="menu-item">
+                <span><i class="fa-solid fa-house"></i></span><h3>Settings</h3>
+            </a>
+        </div>
+                                    <!-- sidebar end -->
+        <label2 for="create-post" class="btn btn-primary">create Post</label2>
+        </div>
+
+                                     <!-- END OF LEFT -->
+
+           <!-- midddle -->
+        <div class="middle">
+                      <!-- STORIES -->
+
+        <div class="stories">
+            <div class="story">
+                <div class=" S-profile-picture">
+                    <img src="Assets/pp.jpg" alt="">
+                </div>
+                <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+                <div class="S-profile-picture">
+                    <img src="Assets/pp.jpg" alt="">
+                </div>
+                <p class="name">Justin Beiber</p>
+            </div>
+            <div class="story">
+                <div class="S-profile-picture">
+                    <img src="Assets/pp.jpg" alt="">
+                </div>
+                <p class="name">Drake</p>
+            </div>
+            <div class="story">
+                <div class="S-profile-picture">
+                    <img src="Assets/pp.jpg" alt="">
+                </div>
+                <p class="name">Eminem</p>
+            </div>
+            <div class="story">
+                <div class="S-profile-picture">
+                    <img src="Assets/pp.jpg" alt="">
+                </div>
+                <p class="name">Christiano Ronaldo</p>
+            </div>
+            <div class="story">
+                <div class="S-profile-picture">
+                    <img src="Assets/pp.jpg" alt="">
+                </div>
+                <p class="name">Robert Downey Jr.</p>
+            </div>
+        </div>
+                <!-- END OF STORIES -->
+        <form class="create-post" >
+            <div class="profile-picture">
+                <img src="Assets/pp.jpg" alt="">
+            </div>
+            <input type="text" placeholder="What's in your Mind, Jatin?" id="create-post">
+            <input type="submit" value="Post" class="btn btn-primary">
+
+        </form>
+           <!-- Feed -->
+           <div class="feeds">
+
+            <!-- FEED 1 -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="S-profile-picture">
+                            <img src="Assets/E-pp.jpeg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Eminem</h3>
+                            <small>New-York 15 H Ago</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+
+                <div class="feed-photo">
+                    <img src="Assets/feed 1.jpeg" alt="">
+                </div>
+
+                <div class="action-button">
+                    <div class="interaction-btn">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-regular fa-share-from-square"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+
+                <div class="liked-by">
+                    <span><img src="Assets/C-pp.jpeg" alt=""></span>
+                    <span><img src="Assets/D-pp.jpeg" alt=""></span>
+                    <span><img src="Assets/R-pp.jpeg" alt=""></span>
+                    
+                    <p>Liked by <b>drake</b>and<b>5,432 others</b></p>
+                </div>
+
+                <div class="caption">
+                    <p><b>Eminem :</b> Old memories with @snoopdog and @Dr.dre.
+                        <span class="hash-tag">#hiphop #Dhh</span></p>
+                </div>
+                <div class=" comments text-muted">
+                    View all 500+ comments
+                </div>
+            </div>
+                <!-- end of feed-->
+                
+           </div>
+           <!-- end of feeds -->
+        </div>
+
+        <!-- end of middel -->
+
+
+        <div class="right">
+            <div class="messages">
+                <div class="heading">
+                    <h4>Messages</h4><i class="fa-regular fa-pen-to-square"></i>
+                </div>
+                <div class="search-bar2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Search messages" id="message-search">
+
+                </div>
+                <div class="category">
+                    <h6 id="color">Primary</h6>
+                    <h6 >General</h6>
+                    <h6 class="message-requests">Request(7)</h6>
+                </div>
+                <div class="message">
+                    <div class="profile-picture">
+                        <img src="Assets/J-pp.jpeg" alt="">
+                    </div>
+                    <div class="message-body">
+                        <h5>Justin Beiber</h5>
+                        <p class="text-muted">I miss Salena!!</p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="profile-picture">
+                        <img src="Assets/D-pp.jpeg" alt="">
+                    </div>
+                    <div class="message-body">
+                        <h5>Drake</h5>
+                        <p class="text-bold">2 New messages</p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="profile-picture">
+                        <img src="Assets/E-pp.jpeg" alt="">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Eminem</h5>
+                        <p class="text-muted">let's Collab buddy</p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="profile-picture">
+                        <img src="Assets/Elon.jpeg" alt="">
+                    </div>
+                    <div class="message-body">
+                        <h5>Elon Musk</h5>
+                        <p class="text-muted">let's Collab buddy</p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="profile-picture">
+                        <img src="Assets/C-pp.jpeg" alt="">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Christiano Ronaldo</h5>
+                        <p class="text-muted">SUIIIIIII!!!</p>
+                    </div>
+                </div>
+            </div>
+                  <!--  end of messages -->
+
+                  <!--  friend request -->
+                  <div class="friend-requests">
+                     <h4>requests</h4>
+                     <div class="requests">
+                     <div class="info">
+                        <div class="profile-picture">
+                            <img src="Assets/R-pp.jpeg" alt="">
+                        </div>
+                        <div>
+                            <h5>ROBERT DOWNEY JR</h5>
+                            <p class="text-muted">
+                                8 mutuals friends
+                            </p>
+                        
+                        </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn ">
+                                Decline
+                            </button>
+
+                        </div>
+                     </div>
+                     <h4>requests</h4>
+                     <div class="requests">
+                     <div class="info">
+                        <div class="profile-picture">
+                            <img src="Assets/Rock pp.jpeg" alt="">
+                        </div>
+                        <div>
+                            <h5>Dwayne Johnson</h5>
+                            <p class="text-muted">
+                                8 mutuals friends
+                            </p>
+                        
+                        </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn ">
+                                Decline
+                            </button>
+
+                        </div>
+                     </div>
+
+                  </div>
+        </div>
+    </div>
+ </main>
+   
+
+    <!--ICONS FA KIT-->
+    <script src="https://kit.fontawesome.com/749bfd4aab.js" ></script>
+    <script src="Script.js"></script>
+    
+</body>
+</html>
